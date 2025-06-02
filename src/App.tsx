@@ -21,7 +21,7 @@ const users:{id:string,name:string,age:number,email:string}[]=[
   { id:'Ir_32_nifigasebe_rabler',
     name:'Igor',
     age:40,
-    email:'igogor13@mailllo@kz'
+    email:'igogor13@mailllo.kz'
   },
 ]
 function App() {
