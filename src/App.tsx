@@ -32,8 +32,8 @@ function App() {
     {users.map((user:{id:string,name:string,age:number,email:string})=>(
       <div key={user.id}>
         <p>name: {user.name}</p>
-        <p>name: {user.age}</p>
-        <p>name: {user.email}</p>
+        <p>age: {user.age}</p>
+        <p>email: {user.email}</p>
       </div>
     ))}  
     </>
