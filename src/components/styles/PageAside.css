@@ -1,0 +1,18 @@
+aside {
+  background-color: aqua;
+  padding: 3px;
+  width: 28%;
+  min-height: 30em;
+  text-align: center;
+  transition: all 1s ease-in;
+}
+aside.dark {
+  background-color: rgb(24, 24, 35);
+}
+p {
+  background-color: rgba(255, 255, 255, 0);
+  text-align: justify;
+}
+aside h1{
+    font-size: 2em;;
+}

@@ -1,0 +1,20 @@
+button {
+    width: 3em;
+    background-color: green;
+    border: 3px ridge red;
+    box-shadow: 1px 2px 3px 3px;
+    border-radius: 20%;
+  }
+ button.dark {
+    background-color: red;
+  }
+  button:active{
+    transform: scale(0.95);
+    box-shadow: 1px 1px 1px 1px;
+  }
+  span.on{
+    color:green;
+  }
+  span.off{
+    color: red;
+  }

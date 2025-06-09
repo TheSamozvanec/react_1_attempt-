@@ -1,5 +1,5 @@
 //import React from "react";
-import type { IUsers } from "../App";
+import type { IUsers } from "./Interfases"
 
 const UsersMap = ({users}:IUsers)=>{
     return (

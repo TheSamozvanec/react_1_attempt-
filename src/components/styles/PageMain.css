@@ -1,0 +1,30 @@
+main{
+    min-height: 30em;
+    margin-right: 10px;
+    width: 78%;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    transition: all 1s ease-in;
+    background-color: beige;
+  }
+  main.dark{
+    background-color: rgb(24, 24, 35);
+  }
+  main div{
+    background-color: rgb(141, 121, 210);
+    border: 1px solid black;
+    box-shadow: 5px 3px 5px 6px;
+    cursor: grab;
+    font-size: 1em;
+    transition: all 0.5s ease-in;
+    text-align: center;
+    align-content: center;
+    min-height: 50%;
+    padding: 10px;
+  }
+ main div:hover{
+    box-shadow: 1px 1px 3px 3px;
+    transform: scale(0.97);
+  }
