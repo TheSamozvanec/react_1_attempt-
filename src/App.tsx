@@ -1,4 +1,4 @@
-//import { useState } from 'react'
+import { useState } from 'react'
 //import reactLogo from './assets/react.svg'
 //import viteLogo from '/vite.svg'
 import './App.css'
@@ -10,13 +10,15 @@ import PageFooter from './components/PageFooter'
 //import users from './components/users';
 
 function App() {
-  
+  const Tema=useState('dark');
+  const tema=Tema[0]
+  const setTema=Tema[1]
   return (
     <>
-    <PageHeader/>
+    <PageHeader tema={tema} setTema={setTema}/>
     <div className='content'>
-      <PageMain/>
-      <PageAside/>
+      <PageMain tema={tema} setTema={setTema}/>
+      <PageAside tema={tema} setTema={setTema}/>
     </div>
     <PageFooter/>
     </>

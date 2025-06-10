@@ -1,8 +1,9 @@
+import type { IStateTema } from "./Interfases"
 import "./styles/Toggle.css"
-import { useState } from "react"
+//import { useState } from "react"
 
-function Toggle(){
-    const [tema, setTema] = useState('dark')
+function Toggle({tema,setTema}:IStateTema){
+    
     return (
         <>
         <button className={tema} onClick={()=>setTema(tema? '':'dark')}>

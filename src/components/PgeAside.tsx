@@ -1,8 +1,9 @@
+import type { IStateTema } from "./Interfases"
 import "./styles/PageAside.css"
 
-function PageAside(){
+function PageAside({tema}:IStateTema){
     return (
-        <aside className="">
+        <aside className={tema}>
              <h1>Welcome!!!</h1>
             <p><a href="#">text text text 1</a></p>
             <p><a href="#">text text text 2</a></p>
